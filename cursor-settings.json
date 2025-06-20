@@ -1,60 +1,67 @@
 {
-  "workbench.statusBar.visible": false, // 下部ステータス非表示
-  "workbench.editor.showTabs": "single",          // タブ行を非表示
-  "workbench.editor.showIcons": false,         // ファイルアイコン非表示
-  "workbench.editor.tabCloseButton": "off",    // タブ閉じるボタン非表示
-  "window.commandCenter": false,               // 上部コマンドセンター非表示
-  "workbench.layoutControl.enabled": false,   // 右上のレイアウト切替ボタン非表示
+  // === ワークベンチ・UI設定 ===
+  "workbench.editor.showTabs": "single",
+  "workbench.editor.showIcons": false,
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
   
   // === エディタ表示設定 ===
-  "editor.minimap.enabled": false,             // ミニマップ不要
-  "editor.lineNumbers": "off",                 // 行番号オフ
-  "editor.renderWhitespace": "none",           // 空白文字非表示
-  "editor.scrollbar.vertical": "hidden",       // 垂直スクロールバー非表示
-  "editor.scrollbar.horizontal": "hidden",     // 水平スクロールバー非表示
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.scrollbar.horizontalScrollbarSize": 0,
   
-  // === 文字と折り返し設定 ===
-  "editor.wordWrap": "bounded",                // 指定文字数で折り返し
-  "editor.wordWrapColumn": 80,                 // 80文字で折り返し
-  "editor.wrappingIndent": "same",             // 折り返し行のインデント
-  "editor.fontSize": 13,
-  "editor.fontLigatures": true,                // フォント合字
+  // === フォント・テキスト設定 ===
+  "editor.fontSize": 17,
+  "editor.lineHeight": 1.75,
+  "editor.fontLigatures": true,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 70,
+  "editor.wrappingIndent": "same",
   
   // === レイアウト・余白設定 ===
   "editor.padding.top": 30,
   "editor.padding.bottom": 30,
-  "editor.padding.left": 120,                  // 左余白
-  "editor.padding.right": 120,                 // 右余白
+  "editor.padding.left": 120,
+  "editor.padding.right": 120,
   
   // === Zen Mode設定 ===
-  "zenMode.centerLayout": true, // Zen Mode時にタブ非表示
-  "zenMode.hideStatusBar": true,               // Zen Mode時にステータスバー非表示
-  "zenMode.hideActivityBar": true,             // Zen Mode時にアクティビティバー非表示
+  "zenMode.centerLayout": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.showTabs": "single",
   
-  // === コード補完抑制 ===
+  // === 補完・提案無効化 ===
   "editor.quickSuggestions": {
     "other": false,
     "comments": false,
     "strings": false
   },
-  "editor.suggest.showWords": false,           // 単語補完を無効
+  "editor.suggest.showWords": false,
   "editor.acceptSuggestionOnCommitCharacter": false,
   
   // === 色のカスタマイズ ===
   "workbench.colorCustomizations": {
-    "editorGroup.border": "#00000000",          // 境界線を透明に
+    "editorGroup.border": "#00000000",
     "editorGroupHeader.border": "#00000000",
-    "scrollbarSlider.background": "#00000000",  // スクロールバーハンドル透明
+    "scrollbarSlider.background": "#00000000",
     "scrollbarSlider.hoverBackground": "#00000000",
     "scrollbarSlider.activeBackground": "#00000000"
   },
   
-  // === その他 ===
+  // === デフォルト設定 ===
   "files.defaultLanguage": "markdown",
-  "workbench.editor.enablePreview": false,
-  "workbench.activityBar.location": "hidden",
-  "workbench.editor.tabActionCloseVisibility": false,
-  "zenMode.showTabs": "single"
+  "workbench.editor.tabActionCloseVisibility": false
+
+  // === 色設定 ===
+  "workbench.colorCustomizations": {
+  "editor.foreground": "#fff5ed",
+  }
 }
