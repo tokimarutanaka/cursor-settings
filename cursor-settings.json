@@ -53,15 +53,14 @@
     "editorGroupHeader.border": "#00000000",
     "scrollbarSlider.background": "#00000000",
     "scrollbarSlider.hoverBackground": "#00000000",
-    "scrollbarSlider.activeBackground": "#00000000"
+    "scrollbarSlider.activeBackground": "#00000000",
+    "editor.foreground": "#fff5ed"
   },
+  
+  // === ルーラー非表示 ===
+  "editor.rulers": [],
   
   // === デフォルト設定 ===
   "files.defaultLanguage": "markdown",
   "workbench.editor.tabActionCloseVisibility": false
-
-  // === 色設定 ===
-  "workbench.colorCustomizations": {
-  "editor.foreground": "#fff5ed",
-  }
 }
